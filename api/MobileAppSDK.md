@@ -131,7 +131,7 @@ sign       | String  | 50          | Y       | 数字签名：双方需要验证
 
 >##### Status：200、100、101......108、109、（见返回值代码说明）
 
-成功后 返回json串其中status状态码，order_id 是支付成功返回的订单号
+成功后 返回json串其中status状态码，order_id 是支付成功返回的订单号,product_id是对应套餐名字
 
 
 >## google 支付验证接口
